@@ -1,9 +1,11 @@
 import "./App.css";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
+import StorefrontIcon from "@mui/icons-material/Storefront";
 function App() {
   return (
     <div className="App">
       <div className="header-logo"></div>
+      <StorefrontIcon fontSize="large" />
 
       <div className="header-searchbar"></div>
       <div className="header-nav">
