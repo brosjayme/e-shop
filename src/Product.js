@@ -1,20 +1,20 @@
 import React from "react";
 import "./Product.css";
-import download from "./assets/download.jpg";
+// import download from "./assets";
 
-function Product() {
+function Product({ id, title, image, price, rating }) {
   return (
     <div>
       <div className="product">
         <div className="product-info">
-          <p>Titleoijhkl/.jhgsffghj,mhngb</p>
+          <p>{title}</p>
           <p className="product-price">
             <small>$</small>
-            <strong>40</strong>
+            <strong>{price}</strong>
           </p>
           <div className="product-ratings">⭐⭐⭐⭐</div>
         </div>
-        <img src={download} alt="" />
+        <img src={image} alt="" />
         <button>Add to Basket</button>
       </div>
     </div>
