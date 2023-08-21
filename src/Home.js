@@ -9,14 +9,15 @@ import download3 from "./assets/download3.jpg";
 function Home() {
   return (
     <div>
+      <div className="home-image">
+        <img
+          src="https://thumbs.dreamstime.com/b/e-commerce-business-online-digital-
+            internet-shopping-concept-virtual-screen-208063581.jpg?w=992"
+          alt=""
+        />
+      </div>
       <div className="home">
         <div className="home-container">
-          <img
-            src="https://thumbs.dreamstime.com/b/e-commerce-business-online-digital-
-            internet-shopping-concept-virtual-screen-208063581.jpg?w=992"
-            alt=""
-            className="home-image"
-          />
           <div className="home-row">
             <Product
               id="123241"
