@@ -5,7 +5,7 @@ function CheckoutProduct() {
   return (
     <div className="checkoutProduct">
       <img src="" alt="" className="checkoutProduct_image" />
-      <div className="product_info">
+      <div className="checkoutproduct_info">
         <p className="checkoutProduct_title">laptop bag</p>
         <p className="checkoutProduct_price">
           <small>$</small>
@@ -13,7 +13,7 @@ function CheckoutProduct() {
         </p>
         <div className="checkoutProduct_rating">⭐⭐</div>
       </div>
-      <button>Remove from Basket</button>
+      <button className="checkoutProduct_remove">Remove from Basket</button>
     </div>
   );
 }
